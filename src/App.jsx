@@ -85,7 +85,7 @@ const App = () => {
 
                             <Grid item lg={5} md={6} sm={12} xs={12}
                                 sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center',
-                                    backgroundImage: 'url(Iimages/experience.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
+                                    backgroundImage: 'url(Images/experience.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
                                     backgroundPosition: 'center', borderRadius: '24px', minHeight: '500px', p: 4,}}>
                                 <Typography variant="h3" sx={{ fontSize: '24px', fontWeight: 'bold', pb: 2 }} color="#FFF">{content.experience.title}</Typography>
                                 <Typography variant="h3" sx={{ fontSize: '18px', pb:1}} color="#FFF">{content.experience.intro1}</Typography>
