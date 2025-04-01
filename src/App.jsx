@@ -760,7 +760,7 @@ const App = () => {
                                         }}>
                                             <img
                                                 alt='Markusmoments homepage'
-                                                src='/Images/Projects/Markusmoments 1.png'
+                                                src='/Images/Projects/Markusmoments.png'
                                                 style={{
                                                     display: 'block',
                                                     width: '100%',
