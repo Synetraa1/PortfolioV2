@@ -45,12 +45,12 @@ const App = () => {
 
                         <Grid item lg={6} md={6} sm={12} xs={12}
                             sx={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                            <img alt="Nico" src="public/images/Nico.png"
+                            <img alt="Nico" src="/images/Nico.png"
                                 style={{maxWidth: '65%', height: 'auto'}}/>
                         </Grid>
 
                         <Grid item sx={{mt:'10vh'} }>
-                            <img alt="Divider Line" src="public/images/Line1.png"/>
+                            <img alt="Divider Line" src="/images/Line1.png"/>
                         </Grid>
                     </Grid>
                 </Container>
@@ -75,7 +75,7 @@ const App = () => {
 
                             <Grid item lg={5} md={6} sm={12} xs={12}
                                 sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start',  justifyContent: 'center',
-                                    backgroundImage: 'url(/public/images/introductionbg.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center',
+                                    backgroundImage: 'url(/images/introductionbg.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center',
                                     borderRadius: '24px', minHeight: '500px', p: 4, }}>
                                 <Typography variant="h3" sx={{ fontSize: '24px', fontWeight: 'bold', pb: 2 }} color="#FFF">{content.info.intro1}</Typography>
                                 <Typography variant="h3" sx={{ fontSize: '18px', pb: 2 }} color="#FFF">{content.info.intro2}</Typography>
@@ -85,7 +85,7 @@ const App = () => {
 
                             <Grid item lg={5} md={6} sm={12} xs={12}
                                 sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center',
-                                    backgroundImage: 'url(/public/images/experience.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
+                                    backgroundImage: 'url(/images/experience.png)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat',
                                     backgroundPosition: 'center', borderRadius: '24px', minHeight: '500px', p: 4,}}>
                                 <Typography variant="h3" sx={{ fontSize: '24px', fontWeight: 'bold', pb: 2 }} color="#FFF">{content.experience.title}</Typography>
                                 <Typography variant="h3" sx={{ fontSize: '18px', pb:1}} color="#FFF">{content.experience.intro1}</Typography>
@@ -124,7 +124,7 @@ const App = () => {
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
 
                                     <CardMedia
-                                        component="img" image="/public/images/Logos/Figma.png" alt="Figma logo"/>
+                                        component="img" image="/images/Logos/Figma.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -139,7 +139,7 @@ const App = () => {
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
-                                    <CardMedia component="img" image="/public/images/Logos/Javascript.png" alt="Javascript logo"/>
+                                    <CardMedia component="img" image="/images/Logos/Javascript.png" alt="Javascript logo"/>
                                     <Box sx={{display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
                                             <Typography>{content.technology.javascript}</Typography>
@@ -153,7 +153,7 @@ const App = () => {
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
-                                    <CardMedia component="img" image="/public/images/Logos/HTML.png" alt="Figma logo"/>
+                                    <CardMedia component="img" image="/images/Logos/HTML.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -168,7 +168,7 @@ const App = () => {
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
-                                    <CardMedia component="img" image="/public/images/Logos/CSS.png" alt="Figma logo"/>
+                                    <CardMedia component="img" image="/images/Logos/CSS.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -183,7 +183,7 @@ const App = () => {
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
-                                    <CardMedia component="img" image="/public/images/Logos/React.png" alt="Figma logo"/>
+                                    <CardMedia component="img" image="/images/Logos/React.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -202,7 +202,7 @@ const App = () => {
                                 <Card sx={{
                                     display: "flex", flexDirection: "column",  backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
-                                    <CardMedia component="img" image="/public/images/Logos/MaterialUI.png" alt="Figma logo" />
+                                    <CardMedia component="img" image="/images/Logos/MaterialUI.png" alt="Figma logo" />
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -218,7 +218,7 @@ const App = () => {
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
                                     <CardMedia
-                                        component="img" image="/public/images/Logos/Wordpress.png" alt="Figma logo"/>
+                                        component="img" image="/images/Logos/Wordpress.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -234,7 +234,7 @@ const App = () => {
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
                                     <CardMedia
-                                        component="img" image="/public/images/Logos/Lua.png" alt="Figma logo"/>
+                                        component="img" image="/images/Logos/Lua.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -250,7 +250,7 @@ const App = () => {
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
                                     <CardMedia
-                                        component="img" image="/public/images/Logos/Git.png" alt="Figma logo"/>
+                                        component="img" image="/images/Logos/Git.png" alt="Figma logo"/>
                                     <Box sx={{
                                         display: "flex", flexDirection: "column", textAlign: "center",}}>
                                         <CardContent>
@@ -315,7 +315,7 @@ const App = () => {
                                             }}>
                                                 <img
                                                     alt='weather app barelyweathery'
-                                                    src='public/Images/Projects/BarelyWeathery.png'
+                                                    src='/Images/Projects/BarelyWeathery.png'
                                                     style={{
                                                         display: 'block',
                                                         width: '100%',
@@ -438,7 +438,7 @@ const App = () => {
                                         }}>
                                             <img
                                                 alt='Carbon footprint calculator home page'
-                                                src='public/Images/Projects/karpon.png'
+                                                src='/Images/Projects/karpon.png'
                                                 style={{
                                                     display: 'block',
                                                     width: '100%',
@@ -546,7 +546,7 @@ const App = () => {
                                         }}>
                                             <img
                                                 alt='Startecon Oy homepage'
-                                                src='public/Images/Projects/startecon.png'
+                                                src='/Images/Projects/startecon.png'
                                                 style={{
                                                     display: 'block',
                                                     width: '100%',
@@ -653,7 +653,7 @@ const App = () => {
                                         }}>
                                             <img
                                                 alt='Mediastation homepage'
-                                                src='public/Images/Projects/mediastation.png'
+                                                src='/Images/Projects/mediastation.png'
                                                 style={{
                                                     display: 'block',
                                                     width: '100%',
@@ -760,7 +760,7 @@ const App = () => {
                                         }}>
                                             <img
                                                 alt='Markusmoments homepage'
-                                                src='public/Images/Projects/markusmoments 1.png'
+                                                src='/Images/Projects/markusmoments 1.png'
                                                 style={{
                                                     display: 'block',
                                                     width: '100%',
