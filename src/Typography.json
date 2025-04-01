@@ -1,0 +1,144 @@
+{
+    "greeting": "Hello there 👋",
+    "intro1": "I'm Nicholas Hickman. Currently studying to become a software developer. I am also intrigued by designing.",
+    "intro2": " Mainly focused on UI/UX Design and Frontend Development.",
+    "intro3": " Currently I have little experience in backend, but a strong motivation to learn.",
+
+    "Navbar": {
+        "portfolio": "Portfolio by Nicholas Hickman",
+        "cv": "C.V",
+        "projects": "projects",
+        "resume": "resume"
+    },
+
+    "info": {
+        "title": "About me  🤓",
+        "intro1": "Little bit about me. ",
+        "intro2": "I am a young enthusiast raised on a computer. So I got fairly familiar with building PCs and using a computer. This is also why I've always wondered how programmes work",
+        "intro3": "I am born in Finland but lived most of my life in Ireland.",
+        "intro4": "Currently residing in Finland with my two cats and my spouse. "
+    },
+
+    "experience": {
+        "title": "My development and design backstory.",
+        "intro1": "I started programming in early 2019. Making a cookie clicker game as practice. ",
+        "intro2": "(Unfortunately I don’t have access to it anymore, back then I wasn’t familiar with version control).",
+        "intro3": "Started studying software development in Keuda, Kerava in 2023. ",
+        "intro4": "My true passion sparked on my first Wordpress project, when I fell in love with front-end and designing. "
+    },
+
+    "technology": {
+        "title": "Technologies  🖥️",
+        "subtitle": "These are the current technologies that I use at a junior level:",
+        "figma": "Figma",
+        "javascript": "Javascript",
+        "html": "HTML5",
+        "css": "CSS",
+        "react": "React",
+        "wordpress": "Wordpress",
+        "materialui": "MaterialUI",
+        "lua": "Lua",
+        "git": "Git"
+    },
+
+    "projects": {
+        "title": "Projects  📖",
+        "subtitle": "A list of most of the projects I’ve personally worked on.",
+        "task": "My tasks on this project were:",
+
+        "notlive": "Unfortunately this website is no longer hosted",
+        "live": "Visit live website here",
+        "github": "Visit GitHub Repository here",
+        "norepo": "Unfortunately this website doesn't have a repo",
+
+        "weathertitle": "BarelyWeathery",
+        "weathersub": "A project that I did in my personal time.",
+        "weathertask1": "Design the project on Figma.",
+        "weathertask2": "Fix user reported issues",
+        "weathertask3": "Use React and MaterialUI to import the design to code. ",
+        "weathertask4": "Ensure the APIs are working correctly showing real data",
+        "weathertask5": "Obtain a host and a domain for the website.",
+        "weathertask6": "Maintain upkeep and update the website",
+
+        "karpontitle": "Karpon",
+        "karponsub": "During my internship at Startecon.",
+        "karpontask1": "Design the project on Figma.",
+        "karpontask2": "Create a working prototype on Figma",
+        "karpontask3": "Use React and MaterialUI to import the design to code. ",
+
+        "startitle": "Startecon",
+        "starsub": "Also during my internship at Startecon.",
+        "startask1": "Design the project on Figma.",
+        "startask2": "Create a working prototype on Figma",
+        "startask3": "Use React and MaterialUI to import the design to code. ",
+
+        "mediatitle": "Mediastation",
+        "mediasub": "During my studies in Keuda. First Wordpress project.",
+        "mediatask1": "Design the project using Wordpress.",
+        "mediatask2": "Document the project and communicate with the client.",
+        "mediatask3": "Use Wordpress to create the project and a functioning website. ",
+
+        "markustitle": "Markusmoments",
+        "markussub": "During my studies in Keuda. First website project.",
+        "markustask1": "Create the project using HTML5, CSS3 and some Javascript",
+        "markustask2": "Communication with client about his website needs",
+        "markustask3": "Using HTML and CSS to bring the project to life.",
+
+        "footer": "*On all of my projects, the version control has done been via GitHub or Azure DevOps. I cannot upload some projects on GitHub which is why I have large gaps in my contributions"
+    },
+
+    "resume": {
+        "title": "Resume  📄",
+        "worksubtitle": "Work Experiences:",
+
+        "startecon": "Software Developer/Designer Trainee, Startecon",
+        "stardate": "January 2025 - Current",
+        "startask1": "Designing web applications in Figma.",
+        "startask2": "Using React and Material UI to code the front-end.",
+        "startask3": "Host meetings to show prototypes of designs.",
+        "startask4": "Communicate with customers about the designs.",
+        "startask5": "Making designs that are friendly for an engineer to read and code.",
+
+        "veikkaus1": "Customer Contact Center, Veikkaus",
+        "veikkausdate1": "February 2022 - September 2023",
+        "veikkaus1task1": "Providing customer support through phone, live-chat and e-mail.",
+        "veikkaus1task2": "Assisting customers with inquiries about Veikkaus’ games and services",
+        "veikkaus1task3": "Ensuring customer satisfaction",
+        "veikkaus1task4": "Communicate with other teams, about bugs or mispayments noticed by customers",
+
+        "veikkaus2": "Customer service - Gaming industry, Veikkaus",
+        "veikkausdate2": "September 2020 - February 2022",
+        "veikkaus2task1": "Customer service, ensuring customer satisfaction.",
+        "veikkaus2task2": "Maintaining hygiene in the game room, especially on the slot machines.",
+        "veikkaus2task3": "Responsibility for cashier and large payouts of lottery/betting wins.",
+
+        "facebook": "IT Logistics Junior, Milestone Facebook",
+        "facedate": "June 2018 - July 2018",
+        "facetask1": "Daily inventory checks and stocking of IT vending machines.",
+        "facetask2": "Checking main stock room for equipment needed in the VMs.",
+        "facetask3": "Reporting low-stock items to Team Lead."
+    },
+
+    "education": {
+        "title": "Education",
+        "keudadate": "August 2023 - Current",
+        "keudacert": "Information and Communication Technologies (ICT), Keuda Kerava, Finland.",
+        "pobaldate": "August 2016 - June 2019",
+        "pobalcert": "Leaving Certificate, Palmerstown Community School, Dublin, Ireland."
+    },
+
+    "languages": {
+        "title": "Languages",
+        "english": "English - Native",
+        "finnish": "Finnish - Native",
+        "german": "German - Novice"
+    },
+
+    "qualifications": {
+        "title": "Qualifications",
+        "military": "Military Service in Finland. Military Police 2020 (9 months)",
+        "pobal": "Leaving Certificate",
+        "warehouse": "Stock Picker Certificate",
+        "pobaljr": "Junior Certificate"
+    }
+}
