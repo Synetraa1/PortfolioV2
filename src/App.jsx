@@ -1,17 +1,46 @@
 ﻿import React from 'react';
 import Navbar from './navbar';
 import "./Main.css";
-import { Grid, Typography, Button, Container, Card, CardMedia, CardActionArea, CardContent, Box, List, ListItem, ListSubheader, Link } from '@mui/material';
+import {  Grid, Typography, Button, Container, Card, CardMedia, CardContent, Box, List, ListItem, Link } from '@mui/material';
 import content from './Typography.json';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+import { GlobalStyles } from '@mui/material';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { Element, } from 'react-scroll';
 import ScrollToTop from './ScrollToTop';
+import CssBaseline from '@mui/material/CssBaseline';
+
+const theme = createTheme();
 
 
+function ScrollbarStyles() {
+    return (
+        <GlobalStyles
+            styles={{
+                '*::-webkit-scrollbar': {
+                    width: '8px',
+                    height: '10px',
+                    backgroundColor: '#2b2b2b',
+                },
+                '*::-webkit-scrollbar-thumb': {
+                    backgroundColor: '#6b6b6b',
+                    borderRadius: '8px',
+                    border: '2px solid #2b2b2b',
+                },
+                '*::-webkit-scrollbar-thumb:hover': {
+                    backgroundColor: '#FFF',
+                },
+                '*::-webkit-scrollbar-thumb:active': {
+                    backgroundColor: '#FFF',
+                },
+                '*': {
+                    scrollbarWidth: 'thin',
+                    scrollbarColor: '#ff0000 #000',
+                },
+            }}
+        />
+    );
+}
 
-
-
-const App = () => {
     const buttonStyle = {
         color: '#fff',
         fontSize: '20px',
@@ -24,7 +53,14 @@ const App = () => {
         }
     };
 
+    const App = () => {
+
     return (
+        <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <ScrollbarStyles />
+        <div>
+
         <>
             <Navbar />
             <section id='landing'>
@@ -1162,6 +1198,8 @@ const App = () => {
             <ScrollToTop />
 
         </>
+        </div>
+        </ThemeProvider>
     );
 };
 
