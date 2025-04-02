@@ -72,7 +72,7 @@ function ScrollbarStyles() {
 
                         <Grid item lg={6} md={6} sm={12} xs={12}
                             sx={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'center',}}>
-                            <Typography variant="h1" sx={{ fontSize: '48px', fontWeight: 'bold', pb: 2 }} color="#FFF">{content.greeting}</Typography>
+                            <Typography variant="h1" sx={{ fontSize: '48px', fontWeight: 'bold', pb: 2, mt:{xs:20, md:0, lg:0} }} color="#FFF">{content.greeting}</Typography>
                             <Typography variant="h2" sx={{ fontSize: '20px', pb:2 }} color="#FFF">{content.intro1}</Typography>
                             <Typography variant="h2" sx={{ fontSize: '20px' }} color="#808080">{content.intro2}</Typography>
                             <Typography variant="h2" sx={{ fontSize: '20px', pb: 2 }} color="#808080">{content.intro3}</Typography>
@@ -154,7 +154,7 @@ function ScrollbarStyles() {
                         <Grid container item xs={12} sx={{ pt: 8, gap: 5, display: 'flex', justifyContent: 'center', }}>
 
                             {/* Figma */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}sx={{paddingLeft:{xs:5, md:0, lg:0}}}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -171,7 +171,7 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* Javascript */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -185,7 +185,7 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* HTML5 */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}sx={{paddingLeft:{xs:5, md:0, lg:0}}}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -200,7 +200,7 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* CSS */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -215,7 +215,7 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* React */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}sx={{paddingLeft:{xs:5, md:0, lg:0}}}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -228,13 +228,9 @@ function ScrollbarStyles() {
                                     </Box>
                                 </Card>
                             </Grid>
-                        </Grid>
-                            <Grid container item xs={12} sx={{
-                                gap:5, display: 'flex', justifyContent: 'center',
-                                alignItems: 'center', pt:2}}>
 
                             {/* MUI */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column",  backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -249,7 +245,7 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* Wordpress */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}sx={{paddingLeft:{xs:5, md:0, lg:0}}}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -265,10 +261,10 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* Lua */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
-                                    maxWidth: 110, borderRadius: '16px', height: '100%'}}>
+                                    maxWidth: 110, borderRadius: '16px', height: '100%', }}>
                                     <CardMedia
                                         component="img" image="/Images/Logos/Lua.png" alt="Figma logo"/>
                                     <Box sx={{
@@ -281,7 +277,7 @@ function ScrollbarStyles() {
                             </Grid>
 
                             {/* Git */}
-                            <Grid item lg={1} md={4} sm={6} xs={12}>
+                            <Grid item lg={1} md={4} sm={6} xs={5} sx={{paddingLeft:{xs:2, md:0, lg:0}}}>
                                 <Card sx={{
                                     display: "flex", flexDirection: "column", backgroundColor: "#808080",
                                     maxWidth: 110, borderRadius: '16px', height: '100%'}}>
@@ -295,8 +291,7 @@ function ScrollbarStyles() {
                                     </Box>
                                 </Card>
                             </Grid>
-
-                    </Grid>
+                        </Grid>
                     </Grid>
                 </Container>
             </section>
@@ -325,7 +320,7 @@ function ScrollbarStyles() {
                                     color: '#FFF',
                                     mb: 3,
                                     borderBottom: '1px solid #333',
-                                    pb: 1
+                                    pb: 1, paddingRight:{xs:5, md:0, lg:0}
                                 }}>
                                     {content.projects.subtitle}
                                 </Typography>
@@ -925,7 +920,7 @@ function ScrollbarStyles() {
                                         fontSize: '24px',
                                         fontWeight: 'bold',
                                         color: '#FFF',
-                                        mb: 1
+                                        mb: 1, paddingRight:{xs:5, md:0, lg:0}
                                     }}>
                                         {content.resume.startecon}
                                     </Typography>
@@ -934,27 +929,27 @@ function ScrollbarStyles() {
 
                                     <List dense sx={{ listStyleType: 'disc', pl: 2 }}>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.startask1}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.startask2}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.startask3}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.startask4}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.startask5}
                                             </Typography>
                                         </ListItem>
@@ -967,7 +962,7 @@ function ScrollbarStyles() {
                                         fontSize: '24px',
                                         fontWeight: 'bold',
                                         color: '#FFF',
-                                        mb: 1
+                                        mb: 1, paddingRight:{xs:5, md:0, lg:0}
                                     }}>
                                         {content.resume.veikkaus1}
                                     </Typography>
@@ -976,17 +971,17 @@ function ScrollbarStyles() {
 
                                     <List dense sx={{ listStyleType: 'disc', pl: 2 }}>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.veikkaus1task1}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.veikkaus1task2}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.veikkaus1task3}
                                             </Typography>
                                         </ListItem>
@@ -999,7 +994,7 @@ function ScrollbarStyles() {
                                         fontSize: '24px',
                                         fontWeight: 'bold',
                                         color: '#FFF',
-                                        mb: 1
+                                        mb: 1, paddingRight:{xs:5, md:0, lg:0}
                                     }}>
                                         {content.resume.veikkaus2}
                                     </Typography>
@@ -1008,17 +1003,17 @@ function ScrollbarStyles() {
 
                                     <List dense sx={{ listStyleType: 'disc', pl: 2 }}>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.veikkaus2task1}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.veikkaus2task2}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.veikkaus2task3}
                                             </Typography>
                                         </ListItem>
@@ -1031,26 +1026,26 @@ function ScrollbarStyles() {
                                         fontSize: '24px',
                                         fontWeight: 'bold',
                                         color: '#FFF',
-                                        mb: 1
+                                        mb: 1, paddingRight:{xs:5, md:0, lg:0}
                                     }}>
                                         {content.resume.facebook}
                                     </Typography>
-                                    <Typography sx={{ fontSize: '16px', color: "grey" }}>
+                                    <Typography sx={{ fontSize: '16px', color: "grey", paddingRight:{xs:5, md:0, lg:0} }}>
                                         {content.resume.facedate}</Typography>
 
                                     <List dense sx={{ listStyleType: 'disc', pl: 2 }}>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.facetask1}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0, mb: 1 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.facetask2}
                                             </Typography>
                                         </ListItem>
                                         <ListItem sx={{ display: 'list-item', color: '#FFF', p: 0 }}>
-                                            <Typography sx={{ fontSize: '18px' }}>
+                                            <Typography sx={{ fontSize: '18px', paddingRight:{xs:5, md:0, lg:0} }}>
                                                 {content.resume.facetask3}
                                             </Typography>
                                         </ListItem>
@@ -1080,7 +1075,7 @@ function ScrollbarStyles() {
                                     <Typography sx={{ fontSize: '16px', color: 'grey',}}>
                                         {content.education.keudadate}
                                     </Typography>
-                                    <Typography sx={{ fontSize: '18px', color: '#FFF' }}>
+                                    <Typography sx={{ fontSize: '18px', color: '#FFF', paddingRight:{xs:5, md:0, lg:0} }}>
                                         {content.education.keudacert}
                                     </Typography>
                                 </Box>
@@ -1089,7 +1084,7 @@ function ScrollbarStyles() {
                                     <Typography sx={{ fontSize: '16px', color: 'grey',}}>
                                         {content.education.pobaldate}
                                     </Typography>
-                                    <Typography sx={{ fontSize: '18px', color: '#FFF' }}>
+                                    <Typography sx={{ fontSize: '18px', color: '#FFF', paddingRight:{xs:5, md:0, lg:0} }}>
                                         {content.education.pobalcert}
                                     </Typography>
                                 </Box>
@@ -1142,22 +1137,22 @@ function ScrollbarStyles() {
 
                                 <List dense>
                                     <ListItem sx={{ p: 0, mb: 1 }}>
-                                        <Typography sx={{ fontSize: '18px', color: '#FFF' }}>
+                                        <Typography sx={{ fontSize: '18px', color: '#FFF', paddingRight:{xs:5, md:0, lg:0} }}>
                                             {content.qualifications.military}
                                         </Typography>
                                     </ListItem>
                                     <ListItem sx={{ p: 0, mb: 1 }}>
-                                        <Typography sx={{ fontSize: '18px', color: '#FFF' }}>
+                                        <Typography sx={{ fontSize: '18px', color: '#FFF', paddingRight:{xs:5, md:0, lg:0} }}>
                                             {content.qualifications.pobal}
                                         </Typography>
                                     </ListItem>
                                     <ListItem sx={{ p: 0, mb: 1 }}>
-                                        <Typography sx={{ fontSize: '18px', color: '#FFF' }}>
+                                        <Typography sx={{ fontSize: '18px', color: '#FFF', paddingRight:{xs:5, md:0, lg:0} }}>
                                             {content.qualifications.warehouse}
                                         </Typography>
                                     </ListItem>
                                     <ListItem sx={{ p: 0 }}>
-                                        <Typography sx={{ fontSize: '18px', color: '#FFF' }}>
+                                        <Typography sx={{ fontSize: '18px', color: '#FFF', paddingRight:{xs:5, md:0, lg:0} }}>
                                             {content.qualifications.pobaljr}
                                         </Typography>
                                     </ListItem>
