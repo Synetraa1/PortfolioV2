@@ -36,10 +36,6 @@ To view the live portfolio, visit: www.nico-hickman.org
 PortfolioV2/
 ├── public/            # Static assets
 ├── src/               # Source files
-│   ├── components/    # UI components
-│   ├── pages/         # Page components
-│   ├── styles/        # CSS/SCSS files
-│   └── utils/         # Utility functions
 ├── .gitignore         # Git ignore file
 ├── package.json       # Project dependencies
 └── README.md          # Project documentation
