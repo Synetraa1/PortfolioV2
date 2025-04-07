@@ -14,7 +14,7 @@
     "info": {
         "title": "About me  🤓",
         "intro1": "Little bit about me. ",
-        "intro2": "I am a young enthusiast raised on a computer. So I got fairly familiar with building PCs and using a computer. This is also why I've always wondered how programmes work",
+        "intro2": "I am a young enthusiast raised on a computer. So I got fairly familiar with building PCs and using a computer. This is also why I've always wondered how programmes work.",
         "intro3": "I am born in Finland but lived most of my life in Ireland.",
         "intro4": "Currently residing in Finland with my two cats and my spouse. "
     },
@@ -22,7 +22,7 @@
     "experience": {
         "title": "My development and design backstory.",
         "intro1": "I started programming in early 2019. Making a cookie clicker game as practice. ",
-        "intro2": "(Unfortunately I don’t have access to it anymore, back then I wasn’t familiar with version control).",
+        "intro2": "(I don’t have access to it anymore, back then I wasn’t familiar with version control).",
         "intro3": "Started studying software development in Keuda, Kerava in 2023. ",
         "intro4": "My true passion sparked on my first Wordpress project, when I fell in love with front-end and designing. "
     },
@@ -46,30 +46,30 @@
         "subtitle": "A list of most of the projects I’ve personally worked on.",
         "task": "My tasks on this project were:",
 
-        "notlive": "Unfortunately this website is no longer hosted",
+        "notlive": "This website is no longer hosted",
         "live": "Visit live website here",
         "github": "Visit GitHub Repository here",
-        "norepo": "Unfortunately this website doesn't have a repo",
+        "norepo": "This website doesn't have a repo",
 
         "weathertitle": "BarelyWeathery",
         "weathersub": "A project that I did in my personal time.",
         "weathertask1": "Design the project on Figma.",
         "weathertask2": "Fix user reported issues",
         "weathertask3": "Use React and MaterialUI to import the design to code. ",
-        "weathertask4": "Ensure the APIs are working correctly showing real data",
+        "weathertask4": "Ensure the APIs are working correctly showing real data.",
         "weathertask5": "Obtain a host and a domain for the website.",
-        "weathertask6": "Maintain upkeep and update the website",
+        "weathertask6": "Maintain upkeep and update the website.",
 
         "karpontitle": "Karpon",
         "karponsub": "During my internship at Startecon.",
         "karpontask1": "Design the project on Figma.",
-        "karpontask2": "Create a working prototype on Figma",
+        "karpontask2": "Create a working prototype on Figma.",
         "karpontask3": "Use React and MaterialUI to import the design to code. ",
 
         "startitle": "Startecon",
         "starsub": "Also during my internship at Startecon.",
         "startask1": "Design the project on Figma.",
-        "startask2": "Create a working prototype on Figma",
+        "startask2": "Create a working prototype on Figma.",
         "startask3": "Use React and MaterialUI to import the design to code. ",
 
         "mediatitle": "Mediastation",
@@ -80,11 +80,11 @@
 
         "markustitle": "Markusmoments",
         "markussub": "During my studies in Keuda. First website project.",
-        "markustask1": "Create the project using HTML5, CSS3 and some Javascript",
+        "markustask1": "Create the project using HTML5, CSS3 and some Javascript.",
         "markustask2": "Communication with client about his website needs",
         "markustask3": "Using HTML and CSS to bring the project to life.",
 
-        "footer": "*On all of my projects, the version control has done been via GitHub or Azure DevOps. I cannot upload some projects on GitHub which is why I have large gaps in my contributions"
+        "footer": "*On all of my projects, the version control has done been via GitHub or Azure DevOps. I cannot upload some projects on GitHub which is why I have large gaps in my contributions."
     },
 
     "resume": {
@@ -102,9 +102,9 @@
         "veikkaus1": "Customer Contact Center, Veikkaus",
         "veikkausdate1": "February 2022 - September 2023",
         "veikkaus1task1": "Providing customer support through phone, live-chat and e-mail.",
-        "veikkaus1task2": "Assisting customers with inquiries about Veikkaus’ games and services",
-        "veikkaus1task3": "Ensuring customer satisfaction",
-        "veikkaus1task4": "Communicate with other teams, about bugs or mispayments noticed by customers",
+        "veikkaus1task2": "Assisting customers with inquiries about Veikkaus’ games and services.",
+        "veikkaus1task3": "Ensuring customer satisfaction.",
+        "veikkaus1task4": "Communicate with other teams, about bugs or mispayments noticed by customers.",
 
         "veikkaus2": "Customer service - Gaming industry, Veikkaus",
         "veikkausdate2": "September 2020 - February 2022",
