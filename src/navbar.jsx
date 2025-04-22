@@ -59,9 +59,13 @@ const Navbar = () => {
                 color="error"
                 orientation="horizontal"
                 size="large"
-                sx={{ gap: '2px' }}
-            >
-                <Button sx={buttonStyle}><Typography>{content.Navbar.cv}</Typography></Button>
+                sx={{ gap: '2px' }}>
+                <Button 
+                href="https://drive.google.com/file/d/1YhNZnb1CE5_zT05AChggBGBrkCkJVXh-/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                style={buttonStyle}>
+                {content.Navbar.cv}</Button>
                 <Button onClick={() => handleScrollTo("Projects1")} sx={buttonStyle}>
                     <Typography>{content.Navbar.projects}</Typography>
                 </Button>

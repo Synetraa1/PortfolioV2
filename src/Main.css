@@ -10,13 +10,13 @@ body, html {
 }
 
 #landing {
-    background-image:url(/public/Images/Background.png);
+    background-image:url(/Images/Background.png);
     background-size:cover;
     overflow:hidden;
 }
 
 #aboutme {
-    background-image: url(/public/Images/Background2.png);
+    background-image: url(/Images/Background2.png);
     background-size: cover;
     overflow: hidden;
 }
